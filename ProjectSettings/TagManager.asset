@@ -17,10 +17,10 @@ TagManager:
   - LoadScene
   - LoadScene
   - LoadScene
-  - 
-  - 
-  - 
-  - 
+  - firstSceneLayer
+  - secondSceneLayer
+  - thirdSceneLayer
+  - rayLayer
   - 
   - 
   - 

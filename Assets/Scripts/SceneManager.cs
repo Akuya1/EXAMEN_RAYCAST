@@ -35,15 +35,15 @@ public class MenuManager : MonoBehaviour
             if(Physics.Raycast(ray,out hit2))
             {
                 transform.position = new Vector3(hit2.point.x, transform.position.y, hit2.point.z);
-                if(hit2.transform.gameObject.layer == 6)
+                if(hit2.transform.gameObject.layer == 9)
                 {
                     LoadScene(1);
                 }
-                else if(hit2.transform.gameObject.layer == 7)
+                else if(hit2.transform.gameObject.layer == 10)
                 {
                     LoadScene(2);
                 }
-                else if(hit2.transform.gameObject.layer == 8)
+                else if(hit2.transform.gameObject.layer == 11)
                 {
                   LoadScene(3);
                 }
